@@ -1,0 +1,23 @@
+a.CDCalExport {
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 20px;
+  color: #fff!important;
+  position: relative;
+  display: inline-block;
+  background-color: #55acee;
+  box-shadow: 0px 5px 0px 0px #3C93D5;
+  outline: none;
+}
+
+a.CDCalExport:hover {
+   background-color: #6FC6FF;
+}
+
+a.CDCalExport:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}

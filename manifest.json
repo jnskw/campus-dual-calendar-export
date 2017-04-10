@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Campus Dual Stundenplan Export",
+  "description": "1 Chrome Extension die den Stundenplan exportieren tut.",
+  "version": "1.0",
+  "icons": { "48": "icon48.png" },
+  "content_scripts": [{
+    "matches": ["https://selfservice.campus-dual.de/room/index"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_end"
+  }],
+    "permissions": [
+      "downloads",
+      "activeTab",
+      "https://selfservice.campus-dual.de/room/index"
+    ]
+}
