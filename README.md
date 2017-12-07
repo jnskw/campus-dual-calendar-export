@@ -10,5 +10,4 @@ Chrome Extension zum exportieren des Stundenplans von Campus Dual
 
 ## Development
 
-1. `yarn install`
-2. [Extension installieren](https://developer.chrome.com/extensions/getstarted#unpacked)
+1. [Extension installieren](https://developer.chrome.com/extensions/getstarted#unpacked)
