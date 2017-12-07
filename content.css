@@ -21,3 +21,14 @@ a.CDCalExport:active {
   -webkit-transform: translate(0px, 5px);
   box-shadow: 0px 1px 0px 0px;
 }
+
+div.CDCalExport {
+    padding: 10px 15px;
+    display: inline-block;
+    position: relative;
+}
+
+label.CDCalExport {
+    padding: 0px 10px 0px 0px;
+}
+

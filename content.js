@@ -65,6 +65,7 @@
   const createDateInput = (labelText) => {
     const id = labelText.split(' ').join('');
     const input = document.createElement('input');
+    input.setAttribute('class', SCRIPT_ID);
     input.type = 'date';
     input.id = id;
     input.valueAsDate = new Date();
@@ -72,6 +73,7 @@
     const label = createDateLabel(id, labelText);
 
     const container = document.createElement('div');
+    container.setAttribute('class', SCRIPT_ID);
     container.appendChild(label);
     container.appendChild(input);
     return container;
@@ -79,6 +81,7 @@
 
   const createDateLabel = (id, labelText) => {
     const label = document.createElement('label');
+    label.setAttribute('class', SCRIPT_ID);
     label.textContent = labelText;
     label.setAttribute('for', id);
 
