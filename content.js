@@ -69,7 +69,7 @@
     input.id = id;
     input.valueAsDate = new Date();
 
-    const label = createDateLabel(id);
+    const label = createDateLabel(id, labelText);
 
     const container = document.createElement('div');
     container.appendChild(label);
