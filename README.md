@@ -3,7 +3,8 @@ Chrome Extension zum exportieren des Stundenplans von Campus Dual
 ![wow kunst](logo.png)
 
 ## TODO
-- der Zeitraum sollte manuell einstellbar sein
+- [x] der Zeitraum sollte manuell einstellbar sein
+- filtern von bestimmten Vorlesungen vor dem download
 - direkter Export zu Google Calendar
 
 
