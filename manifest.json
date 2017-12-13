@@ -4,6 +4,7 @@
   "description": "1 Chrome Extension die den Stundenplan exportieren tut.",
   "version": "1.0",
   "icons": { "48": "icon48.png" },
+  "update_url": "http://0.0.0.0",
   "content_scripts": [{
     "matches": ["https://selfservice.campus-dual.de/room/index"],
     "js": ["content.js"],
