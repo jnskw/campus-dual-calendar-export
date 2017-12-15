@@ -137,7 +137,13 @@
 
         downloadLink.href = url;
 
+        const calendarElement = document.getElementById('calendar');
+
+        calendar.appendChild(downloadLink);
+
         downloadLink.click();
+
+        calendar.removeChild(downloadLink);
     };
 
 
