@@ -1,4 +1,4 @@
-Chrome Extension zum exportieren des Stundenplans von Campus Dual
+Firefox Add-on zum exportieren des Stundenplans von Campus Dual
 
 ![wow kunst](logo.png)
 
