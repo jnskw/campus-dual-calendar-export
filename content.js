@@ -164,6 +164,9 @@
         });
     };
 
+	const alertAboUrl = (clickevent) => {
+		alert('https://cdical.mattishub.xyz/json_to_ical.php?user=' + getDataAttribute('user') + "&hash=" + getDataAttribute('hash'));
+    }
 
     /// Main
 
@@ -173,10 +176,12 @@
         const button = createDownloadButton('Kalender herunterladen', setDownloadLink);
         const startDateInput = createDateInput(START_DATE_INPUT);
         const endDateInput = createDateInput(END_DATE_INPUT);
+        const aboBtn = createDownloadButton('Abo-URL anzeigen', alertAboUrl);
 
         calendar.appendChild(startDateInput);
         calendar.appendChild(endDateInput);
 
         calendar.appendChild(button);
+        calendar.appendChild(aboBtn);
     });
 })();
